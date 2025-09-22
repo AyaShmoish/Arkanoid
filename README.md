@@ -57,19 +57,16 @@ To clean the build directory:
 ```bash
 make clean
 ```
-Project Structure
-
-src/: Contains all the Java source code of the game. Inside it you will find:
-
-collections/: Data structures and utilities used by the game.
-
-collision/: Classes that handle collision detection between the ball, paddle, and blocks.
-
-counter/: Classes that manage score, lives, and other counters.
-
-game/: Main game logic and flow (initialization, levels, game loop).
-
-geometry/: Geometric primitives such as points, lines, and rectangles used in the game engine.
+## Project Structure
+- `src/`: Contains all the Java source code of the game. Inside it you will find the main packages and classes.  
+- `collections/`: Data structures and utilities used by the game.  
+- `collision/`: Classes that handle collision detection between the ball, paddle, and blocks.  
+- `counter/`: Classes that manage score, lives, and other counters.  
+- `game/`: Main game logic and flow (initialization, levels, game loop).  
+- `geometry/`: Geometric primitives such as points, lines, and rectangles used in the game engine.  
+- `listeners/`: Event listeners for score tracking, block removal, and game events.  
+- `sprites/`: Visual and interactive game objects such as the paddle, ball, and blocks.  
+- `Ass5Game.java`: The entry point of the project — contains the `main` method to run the Arkanoid game.  
 
 listeners/: Event listeners for score tracking, block removal, and game events.
 
