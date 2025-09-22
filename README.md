@@ -67,9 +67,3 @@ make clean
 - `listeners/`: Event listeners for score tracking, block removal, and game events.  
 - `sprites/`: Visual and interactive game objects such as the paddle, ball, and blocks.  
 - `Ass5Game.java`: The entry point of the project — contains the `main` method to run the Arkanoid game.  
-
-listeners/: Event listeners for score tracking, block removal, and game events.
-
-sprites/: Visual and interactive game objects such as the paddle, ball, and blocks.
-
-Ass5Game.java: The entry point of the project — contains the main method to run the Arkanoid game.
