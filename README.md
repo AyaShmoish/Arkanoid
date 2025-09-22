@@ -36,25 +36,27 @@ The player controls a paddle to keep the ball in play and break all the blocks o
 Clone the repository:  
 ```bash
 git clone https://github.com/AyaShmoish/Arkanoid.git
+
+```
 Navigate to the project directory:
-
+```bash
 cd Arkanoid
-
+```
 
 Compile and run using make:
-
+```bash
 make run
-
+```
 If make is not installed, compile manually:
-
+```bash
 javac -d build src/collections/*.java src/collision/*.java src/counter/*.java src/game/*.java src/geometry/*.java src/listeners/*.java src/sprites/*.java src/Ass5Game.java
 java -cp build Ass5Game
-
+```
 
 To clean the build directory:
-
+```bash
 make clean
-
+```
 Project Structure
 
 src/: Contains all the Java source code of the game. Inside it you will find:
