@@ -43,19 +43,26 @@ Navigate to the project directory:
 cd Arkanoid
 ```
 
-Compile and run using make:
+🚀 How to Compile and Run (Windows PowerShell)
 ```bash
-make run
+mkdir build -Force
 ```
-If make is not installed, compile manually:
+# Compile
 ```bash
-javac -d build src/collections/*.java src/collision/*.java src/counter/*.java src/game/*.java src/geometry/*.java src/listeners/*.java src/sprites/*.java src/Ass5Game.java
-java -cp build Ass5Game
+javac -cp "biuoop-1.4.jar" -d build `
+  src\collections\*.java `
+  src\collision\*.java `
+  src\counter\*.java `
+  src\game\*.java `
+  src\geometry\*.java `
+  src\listeners\*.java `
+  src\sprites\*.java `
+  src\Ass5Game.java
 ```
 
-To clean the build directory:
+ Run
 ```bash
-make clean
+java -cp "build;biuoop-1.4.jar" Ass5Game
 ```
 ## Project Structure
 - `src/`: Contains all the Java source code of the game. Inside it you will find the main packages and classes.  
@@ -67,3 +74,4 @@ make clean
 - `listeners/`: Event listeners for score tracking, block removal, and game events.  
 - `sprites/`: Visual and interactive game objects such as the paddle, ball, and blocks.  
 - `Ass5Game.java`: The entry point of the project — contains the `main` method to run the Arkanoid game.  
+- `biuoop-1.4.jar`: External library required for graphics, keyboard input, and animation (contains classes like `GUI`, `DrawSurface`, and `KeyboardSensor`). 
