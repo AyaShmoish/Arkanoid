@@ -74,4 +74,9 @@ java -cp "build;biuoop-1.4.jar" Ass5Game
 - `listeners/`: Event listeners for score tracking, block removal, and game events.  
 - `sprites/`: Visual and interactive game objects such as the paddle, ball, and blocks.  
 - `Ass5Game.java`: The entry point of the project — contains the `main` method to run the Arkanoid game.  
-- `biuoop-1.4.jar`: External library required for graphics, keyboard input, and animation (contains classes like `GUI`, `DrawSurface`, and `KeyboardSensor`). 
+- `biuoop-1.4.jar`: External library required for graphics, keyboard input, and animation (contains classes like `GUI`, `DrawSurface`, and `KeyboardSensor`).
+- 
+## 🎥 Demo
+Watch the gameplay demo:
+
+[▶️ Click here to view the video](assets/ArkanoidDemoGame.mp4)
