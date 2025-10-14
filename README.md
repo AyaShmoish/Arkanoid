@@ -76,7 +76,7 @@ java -cp "build;biuoop-1.4.jar" Ass5Game
 - `Ass5Game.java`: The entry point of the project — contains the `main` method to run the Arkanoid game.  
 - `biuoop-1.4.jar`: External library required for graphics, keyboard input, and animation (contains classes like `GUI`, `DrawSurface`, and `KeyboardSensor`).
 - 
-## 🎥 Demo
-Watch the gameplay demo:
+## 🎮 Gameplay Screenshot
 
-<video src="assets/ArkanoidDemoGame.mp4" width="500" controls></video>
+![Gameplay Screenshot](assets/ArkanoidDemoGame.png)
+
