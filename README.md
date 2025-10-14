@@ -79,4 +79,4 @@ java -cp "build;biuoop-1.4.jar" Ass5Game
 ## 🎥 Demo
 Watch the gameplay demo:
 
-[▶️ Click here to view the video](assets/ArkanoidDemoGame.mp4)
+<video src="assets/ArkanoidDemoGame.mp4" width="500" controls></video>
